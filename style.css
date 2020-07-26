@@ -1,0 +1,212 @@
+#logo {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+  .topPortion{
+    background-image: url('../travelPro/background.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    
+  }
+  
+  h1 {
+    padding-top: 150px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+  }
+  
+  h3 {
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #27c19e;
+    padding-left: 5px
+  }
+  
+  p {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.36;
+    text-align: left;
+    color: #4a4a4a;
+    padding-left: 5px;
+  }
+  
+  form {
+    margin-top: 50px;
+    height: 10px;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .weather h2 {
+    position: relative;
+    padding: 5px;
+  }
+  
+  .container {
+    margin: auto;
+    visibility: hidden;
+  }
+  
+  .weather h2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #4a4a4a;
+  }
+  
+  .weather {
+    margin: 0 auto;
+    width: 200px;
+    height: 260px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .weathericon {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .venue {
+    display: inline-block;
+    width: 275px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+    }
+  
+  .venueimage {
+    margin-top: 20px;
+  }
+  
+  #venues{
+        display:flex;
+        flex-flow:wrap;
+    }
+
+  #venues h2 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.77;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #destination {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    color: #363833;
+  }
+  
+  #sectiontitle {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    margin: 5px auto;
+    color: #4a4a4a;
+  }
+  
+  #venues {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+  }
+  
+  #city {
+    width: 286px;
+    height: 46px;
+    border-radius: 4px;
+    border: solid 2.5px #ffffff;
+    background-color: inherit;
+    opacity: 0.73;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+
+  #button {
+    width: 140px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #2a2f30;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #button:hover{
+      cursor: pointer;
+  }
+
+ 
+
+  /* small phone */
+  @media (max-width: 560px){
+    .topPortion{
+        height: 750px;
+    }
+    .question{
+        font-size: 26px;
+    }
+    #button{
+        margin: 10px;
+    } 
+  }
+  /* landscape phones */
+  @media screen and (orientation:landscape) and (min-width: 150px) and (max-width: 900px) {
+        .question{
+            font-size: 26px;
+        }
+        .topPortion{
+            height: 830px;
+          }
+}
+  /* bigger phone */
+  @media (max-width: 850px) {
+    .topPortion{
+      height: 830px;
+    }
+  }
+  /* covers ipad pro */
+  @media (max-width: 1370px) {
+    .topPortion{
+      height: 830px
+    }
+  }
+
+  /* desktop and laptop */
+  @media(min-width:1300px){
+    #num{
+        position: relative;
+        right: 60px;
+    }
+  }
